@@ -29,7 +29,8 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat("hello");
+	bot.chat("/unban RonicBot2");
+        bot.chat("/unban RonicBot3");
 });
 
 bot.on('time', function(time) {
